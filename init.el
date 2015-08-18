@@ -8,5 +8,6 @@
 (require 'init-theme)
 (require 'init-evil)
 (require 'init-linum-mode)
+(require 'init-autosave)
 (require 'init-git-gutter)
 (require 'init-web-mode)
