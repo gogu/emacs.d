@@ -11,3 +11,4 @@
 (require 'init-autosave)
 (require 'init-git-gutter)
 (require 'init-web-mode)
+(require 'init-emmet-mode)
