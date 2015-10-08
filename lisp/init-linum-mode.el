@@ -1,3 +1,7 @@
+;; show cursor position on bottom bar
+(setq column-number-mode t)
+
+;; show line number
 (global-linum-mode t)
 
 (setq linum-mode-inhibit-modes-list '(eshell-mode
