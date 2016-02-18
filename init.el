@@ -13,3 +13,6 @@
 (require 'init-git-gutter)
 (require 'init-web-mode)
 (require 'init-emmet-mode)
+(require 'init-neotree)
+
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 120) (height . 80)))
