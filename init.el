@@ -1,7 +1,8 @@
 ;; init.el
 
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'package-archives
+	     '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp/"))
@@ -13,6 +14,7 @@
 (require 'init-git-gutter)
 (require 'init-web-mode)
 (require 'init-emmet-mode)
+(require 'react-snippets)
 (require 'init-neotree)
 
-(setq initial-frame-alist '((top . 0) (left . 0) (width . 120) (height . 80)))
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 120) (height . 40)))
